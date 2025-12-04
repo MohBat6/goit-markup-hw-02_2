@@ -25,21 +25,30 @@ body {
   background-color: rgba(255, 255, 255, 1);
        color: rgba(67, 68, 85, 1);
         font-family: Roboto, sans-serif;
-    Size: 16px;
-line-height: 24px;
-letter-spacing: 2%;
+        font-weight: 400;
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
 }
 
 
 /* Хедер */
+.logo-entirely {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  }
 .logo {
   color: var(--title-text-color);
 }
 .logo-accent {
   color: var(--logo-accent-color);
 }
-.nav a {
+.nav a { 
   color: var(--title-text-color);
+  font-weight: 500;
 }
 .nav a:hover,
 .nav a:focus {
@@ -60,26 +69,42 @@ letter-spacing: 2%;
 /* Герой */
 .hero-title {
   background-color: var(--title-text-color);
-;
   color: var(--hero-title-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
 .button {
   background-color: var(--logo-accent-color);
   color: var(--hero-title-color);
+  letter-spacing: 0.64px;
 }
 .button:hover {
   background-color: var(--accent-color);
   color: var(--hero-title-color);
+  cursor: pointer;
 }
 
 /* Section */
-.section-title,
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
 .qualities .title,
 .team .name,
 .portfolio .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
-
+.section-team {
+  background-color: var(--background-team);
+}
 
 /* Footer */
 footer {
